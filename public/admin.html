@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>选科填报 - 管理后台</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #f0f2f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+
+    /* 登录 */
+    .admin-login {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .admin-login-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 40px 32px;
+      width: 100%;
+      max-width: 380px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    .admin-login-card h1 { font-size: 20px; margin-bottom: 24px; }
+    .admin-login-card input {
+      width: 100%; height: 48px; padding: 0 16px;
+      font-size: 16px; border: 2px solid #e8e8e8;
+      border-radius: 10px; outline: none; margin-bottom: 16px;
+      text-align: center;
+    }
+    .admin-login-card input:focus { border-color: #1890ff; }
+    .btn {
+      height: 44px; border: none; border-radius: 10px;
+      font-size: 15px; font-weight: 600; cursor: pointer;
+      transition: all 0.2s; display: inline-flex;
+      align-items: center; justify-content: center;
+    }
+    .btn:active { transform: scale(0.97); }
+    .btn-primary { background: #1890ff; color: #fff; }
+    .btn-primary:hover { background: #096dd9; }
+    .btn-outline { background: transparent; color: #1890ff; border: 2px solid #1890ff; }
+    .btn-block { width: 100%; }
+
+    /* 仪表盘 */
+    .dashboard { display: none; }
+    .dash-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 24px; flex-wrap: wrap; gap: 12px;
+    }
+    .dash-header h1 { font-size: 22px; }
+    .dash-actions { display: flex; gap: 8px; }
+
+    /* 统计卡片 */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .stat-card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .stat-card-title {
+      font-size: 15px; font-weight: 700; margin-bottom: 12px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .stat-icon {
+      width: 32px; height: 32px; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; font-weight: 700; color: #fff;
+    }
+    .stat-bar {
+      height: 10px; background: #f0f0f0; border-radius: 5px;
+      overflow: hidden; margin-bottom: 8px;
+    }
+    .stat-bar-fill { height: 100%; border-radius: 5px; transition: width 0.5s; }
+    .stat-numbers {
+      display: flex; justify-content: space-between; align-items: baseline;
+    }
+    .stat-count { font-size: 24px; font-weight: 700; }
+    .stat-limit { font-size: 14px; color: #999; }
+    .stat-percent { font-size: 13px; color: #999; }
+
+    /* 总览卡片 */
+    .overview {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .overview-item {
+      background: #fff; border-radius: 12px; padding: 16px;
+      text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .overview-num { font-size: 28px; font-weight: 700; color: #1890ff; }
+    .overview-label { font-size: 13px; color: #999; margin-top: 4px; }
+
+    /* 表格 */
+    .table-section {
+      background: #fff; border-radius: 14px; padding: 20px;
+      margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .table-section h2 {
+      font-size: 16px; margin-bottom: 16px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th {
+      background: #fafafa; padding: 10px 12px; text-align: left;
+      font-weight: 600; color: #666; border-bottom: 2px solid #f0f0f0;
+      white-space: nowrap;
+    }
+    td {
+      padding: 10px 12px; border-bottom: 1px solid #f5f5f5;
+      white-space: nowrap;
+    }
+    tr:hover td { background: #fafafa; }
+    .tag {
+      display: inline-block; padding: 2px 10px; border-radius: 12px;
+      font-size: 12px; font-weight: 600;
+    }
+    .tag-zhengshidi { background: #f0e6ff; color: #764ba2; }
+    .tag-shengdiji { background: #e6fff0; color: #00a854; }
+    .tag-wuhuaji { background: #fff0e6; color: #d4380d; }
+
+    /* QR码 */
+    .qr-section {
+      background: #fff; border-radius: 14px; padding: 24px;
+      text-align: center; margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .qr-section h2 { font-size: 16px; margin-bottom: 8px; }
+    .qr-section p { font-size: 13px; color: #999; margin-bottom: 16px; }
+    .qr-img { border: 1px solid #f0f0f0; border-radius: 10px; }
+
+    .refresh-note {
+      text-align: center; font-size: 12px; color: #ccc; margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- 登录页 -->
+<div id="admin-login" class="admin-login">
+  <div class="admin-login-card">
+    <h1>🔒 管理后台登录</h1>
+    <input type="password" id="admin-password" placeholder="请输入管理密码" onkeypress="if(event.key==='Enter')adminLogin()">
+    <button class="btn btn-primary btn-block" onclick="adminLogin()">进 入</button>
+  </div>
+</div>
+
+<!-- 仪表盘 -->
+<div id="dashboard" class="container dashboard">
+  <div class="dash-header">
+    <h1>高一选科填报 - 管理后台</h1>
+    <div class="dash-actions">
+      <button class="btn btn-outline" onclick="refreshData()">刷新数据</button>
+      <button class="btn btn-primary" onclick="exportCSV()">导出Excel</button>
+      <button class="btn btn-outline" onclick="adminLogout()">退出</button>
+    </div>
+  </div>
+
+  <!-- 总览 -->
+  <div class="overview" id="overview"></div>
+
+  <!-- 各组合统计 -->
+  <div class="stats-grid" id="stats-grid"></div>
+
+  <!-- QR码 -->
+  <div class="qr-section">
+    <h2>📱 家长/学生填报二维码</h2>
+    <p>学生扫描此二维码即可进入填报页面</p>
+    <img id="qr-img" class="qr-img" alt="QR Code" />
+  </div>
+
+  <!-- 时间设置 -->
+  <div class="table-section">
+    <h2>
+      <span>⏰ 填报时间设置</span>
+      <span id="time-status-tag" style="font-size:13px;padding:4px 12px;border-radius:12px"></span>
+    </h2>
+    <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end">
+      <div>
+        <label style="display:block;font-size:13px;color:#888;margin-bottom:6px">开放时间</label>
+        <input type="datetime-local" id="time-open" style="height:40px;border:2px solid #e8e8e8;border-radius:8px;padding:4px 12px;font-size:14px;width:220px">
+      </div>
+      <div>
+        <label style="display:block;font-size:13px;color:#888;margin-bottom:6px">截止时间</label>
+        <input type="datetime-local" id="time-close" style="height:40px;border:2px solid #e8e8e8;border-radius:8px;padding:4px 12px;font-size:14px;width:220px">
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;height:40px">
+        <label style="display:flex;align-items:center;gap:6px;cursor:pointer;font-size:14px">
+          <input type="checkbox" id="time-active" onchange="onTimeToggle()" style="width:18px;height:18px;cursor:pointer">
+          启用时间限制
+        </label>
+      </div>
+      <button class="btn btn-primary" onclick="saveTimeSettings()" style="height:40px">保存设置</button>
+    </div>
+    <div id="time-status-msg" style="margin-top:10px;font-size:13px;color:#888"></div>
+  </div>
+
+  <!-- 已填报名单 -->
+  <div class="table-section">
+    <h2>
+      <span>已填报名单 (<span id="submitted-count">0</span>人)</span>
+    </h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>序号</th>
+            <th>班级</th>
+            <th>姓名</th>
+            <th>身份证号</th>
+            <th>物理等第</th>
+            <th>化学等第</th>
+            <th>选科组合</th>
+            <th>填报时间</th>
+          </tr>
+        </thead>
+        <tbody id="submitted-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 未填报名单 -->
+  <div class="table-section">
+    <h2>
+      <span>未填报名单 (<span id="unsubmitted-count">0</span>人)</span>
+    </h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>序号</th>
+            <th>班级</th>
+            <th>姓名</th>
+            <th>身份证号</th>
+          </tr>
+        </thead>
+        <tbody id="unsubmitted-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="refresh-note">数据每30秒自动刷新一次</div>
+</div>
+
+<script>
+let adminData = null;
+let autoRefreshTimer = null;
+
+async function adminLogin() {
+  const password = document.getElementById('admin-password').value;
+  if (!password) return;
+
+  try {
+    const res = await fetch('/api/admin?password=' + encodeURIComponent(password));
+    const data = await res.json();
+    if (data.success) {
+      adminData = data;
+      document.getElementById('admin-login').style.display = 'none';
+      document.getElementById('dashboard').style.display = 'block';
+      renderDashboard();
+      // 生成QR码
+      const formUrl = window.location.origin + '/';
+      document.getElementById('qr-img').src =
+        'https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=' + encodeURIComponent(formUrl);
+      loadTimeSettings();
+      // 启动自动刷新
+      autoRefreshTimer = setInterval(refreshData, 30000);
+    } else {
+      alert(data.message);
+    }
+  } catch (err) {
+    alert('网络错误');
+  }
+}
+
+function adminLogout() {
+  if (autoRefreshTimer) clearInterval(autoRefreshTimer);
+  adminData = null;
+  document.getElementById('admin-password').value = '';
+  document.getElementById('admin-login').style.display = 'flex';
+  document.getElementById('dashboard').style.display = 'none';
+}
+
+async function refreshData() {
+  const password = document.getElementById('admin-password').value;
+  try {
+    const res = await fetch('/api/admin?password=' + encodeURIComponent(password));
+    const data = await res.json();
+    if (data.success) {
+      adminData = data;
+      renderDashboard();
+    }
+  } catch (err) {
+    console.error('刷新失败:', err);
+  }
+}
+
+function renderDashboard() {
+  const d = adminData;
+
+  // 总览
+  const overviewHtml = `
+    <div class="overview-item">
+      <div class="overview-num">${d.totalStudents}</div>
+      <div class="overview-label">总学生数</div>
+    </div>
+    <div class="overview-item">
+      <div class="overview-num" style="color:#52c41a">${d.submittedCount}</div>
+      <div class="overview-label">已填报</div>
+    </div>
+    <div class="overview-item">
+      <div class="overview-num" style="color:#faad14">${d.totalStudents - d.submittedCount}</div>
+      <div class="overview-label">未填报</div>
+    </div>
+    <div class="overview-item">
+      <div class="overview-num" style="color:#1890ff">${Math.round(d.submittedCount / d.totalStudents * 100)}%</div>
+      <div class="overview-label">填报率</div>
+    </div>
+  `;
+  document.getElementById('overview').innerHTML = overviewHtml;
+
+  // 各组合统计
+  const choiceConfig = {
+    '政史地': { color: '#764ba2', bg: '#f0e6ff', icon: '政', iconBg: 'linear-gradient(135deg,#667eea,#764ba2)' },
+    '生地技': { color: '#00a854', bg: '#e6fff0', icon: '生', iconBg: 'linear-gradient(135deg,#43e97b,#38f9d7)' },
+    '物化技': { color: '#d4380d', bg: '#fff0e6', icon: '物', iconBg: 'linear-gradient(135deg,#fa709a,#fee140)' }
+  };
+
+  let statsHtml = '';
+  ['政史地', '生地技', '物化技'].forEach(choice => {
+    const count = d.counts[choice] || 0;
+    const limit = d.limits[choice];
+    const percent = Math.min(100, (count / limit) * 100);
+    const cfg = choiceConfig[choice];
+    const isFull = count >= limit;
+
+    statsHtml += `
+      <div class="stat-card">
+        <div class="stat-card-title">
+          <div class="stat-icon" style="background:${cfg.iconBg}">${cfg.icon}</div>
+          ${choice}
+          ${isFull ? '<span style="color:#ff4d4f;font-size:12px;">已满</span>' : ''}
+        </div>
+        <div class="stat-bar">
+          <div class="stat-bar-fill" style="width:${percent}%;background:${cfg.iconBg}"></div>
+        </div>
+        <div class="stat-numbers">
+          <span><span class="stat-count" style="color:${cfg.color}">${count}</span> <span class="stat-limit">/ ${limit}</span></span>
+          <span class="stat-percent">${percent.toFixed(0)}%</span>
+        </div>
+      </div>
+    `;
+  });
+  document.getElementById('stats-grid').innerHTML = statsHtml;
+
+  // 已填报名单
+  const tagClass = { '政史地': 'tag-zhengshidi', '生地技': 'tag-shengdiji', '物化技': 'tag-wuhuaji' };
+  let subHtml = '';
+  d.submissions.forEach((s, i) => {
+    const time = new Date(s.submittedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' });
+    subHtml += `<tr>
+      <td>${i + 1}</td>
+      <td>${s.class}班</td>
+      <td>${s.name}</td>
+      <td style="font-family:monospace">${s.idCard}</td>
+      <td>${s.phyGrade || '-'}</td>
+      <td>${s.chemGrade || '-'}</td>
+      <td><span class="tag ${tagClass[s.choice]}">${s.choice}</span></td>
+      <td style="font-size:12px;color:#999">${time}</td>
+    </tr>`;
+  });
+  document.getElementById('submitted-tbody').innerHTML = subHtml;
+  document.getElementById('submitted-count').textContent = d.submissions.length;
+
+  // 未填报名单
+  let unsubHtml = '';
+  d.unsubmitted.forEach((s, i) => {
+    unsubHtml += `<tr>
+      <td>${i + 1}</td>
+      <td>${s.class}班</td>
+      <td>${s.name}</td>
+      <td style="font-family:monospace">${s.idCard}</td>
+    </tr>`;
+  });
+  document.getElementById('unsubmitted-tbody').innerHTML = unsubHtml;
+  document.getElementById('unsubmitted-count').textContent = d.unsubmitted.length;
+}
+
+function exportCSV() {
+  const d = adminData;
+  // BOM for Excel UTF-8
+  let csv = '\uFEFF序号,班级,姓名,身份证号,物理等第,化学等第,选科组合,填报时间\n';
+  d.submissions.forEach((s, i) => {
+    const time = new Date(s.submittedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' });
+    csv += `${i + 1},${s.class}班,${s.name},${s.idCard},${s.phyGrade || '-'},${s.chemGrade || '-'},${s.choice},${time}\n`;
+  });
+  csv += '\n\n未填报名单\n序号,班级,姓名,身份证号\n';
+  d.unsubmitted.forEach((s, i) => {
+    csv += `${i + 1},${s.class}班,${s.name},${s.idCard}\n`;
+  });
+
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = '选科填报结果_' + new Date().toISOString().slice(0, 10) + '.csv';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// ===== 时间设置 =====
+let timeSettings = null;
+
+async function loadTimeSettings() {
+  const password = document.getElementById('admin-password').value;
+  try {
+    const res = await fetch('/api/settings?password=' + encodeURIComponent(password));
+    const data = await res.json();
+    if (data.success) {
+      timeSettings = data;
+      // 填充表单
+      if (data.settings.openTime) {
+        const openDate = new Date(data.settings.openTime);
+        document.getElementById('time-open').value = toLocalDatetimeStr(openDate);
+      }
+      if (data.settings.closeTime) {
+        const closeDate = new Date(data.settings.closeTime);
+        document.getElementById('time-close').value = toLocalDatetimeStr(closeDate);
+      }
+      document.getElementById('time-active').checked = data.settings.isActive;
+      updateTimeStatus(data.timeCheck);
+    }
+  } catch (err) {
+    console.error('加载时间设置失败:', err);
+  }
+}
+
+function toLocalDatetimeStr(date) {
+  const pad = n => String(n).padStart(2, '0');
+  return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}T${pad(date.getHours())}:${pad(date.getMinutes())}`;
+}
+
+function updateTimeStatus(tc) {
+  const tag = document.getElementById('time-status-tag');
+  const msg = document.getElementById('time-status-msg');
+  if (!tc) {
+    tag.textContent = '未配置';
+    tag.style.cssText = 'background:#f0f0f0;color:#999';
+    msg.textContent = '💡 未启用时间限制，系统始终开放填报';
+    return;
+  }
+  if (tc.isOpen) {
+    tag.textContent = '🟢 填报开放中';
+    tag.style.cssText = 'background:#e6fff0;color:#00a854';
+    if (tc.secondsUntilClose > 0) {
+      const h = Math.floor(tc.secondsUntilClose / 3600);
+      const m = Math.floor((tc.secondsUntilClose % 3600) / 60);
+      msg.textContent = `距离截止还有 ${h} 小时 ${m} 分钟`;
+    } else {
+      msg.textContent = '时间限制已关闭，系统始终开放';
+    }
+  } else {
+    if (tc.reason === '填报已结束') {
+      tag.textContent = '🔴 填报已结束';
+      tag.style.cssText = 'background:#fff0e6;color:#d4380d';
+      msg.textContent = '填报已截止，如需重新开放请延长截止时间';
+    } else {
+      tag.textContent = '🔴 填报未开放';
+      tag.style.cssText = 'background:#fff0e6;color:#d4380d';
+      msg.textContent = '填报暂未开放，学生端将显示倒计时';
+    }
+  }
+}
+
+async function saveTimeSettings() {
+  const openTime = document.getElementById('time-open').value;
+  const closeTime = document.getElementById('time-close').value;
+  const isActive = document.getElementById('time-active').checked;
+  const password = document.getElementById('admin-password').value;
+
+  if (isActive && (!openTime || !closeTime)) {
+    alert('请设置开放时间和截止时间');
+    return;
+  }
+
+  try {
+    const res = await fetch('/api/settings', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password, openTime, closeTime, isActive })
+    });
+    const data = await res.json();
+    if (data.success) {
+      timeSettings = data;
+      updateTimeStatus(data.timeCheck);
+      alert('✅ 时间设置已保存');
+    } else {
+      alert(data.message);
+    }
+  } catch (err) {
+    alert('保存失败，请检查网络');
+  }
+}
+
+function onTimeToggle() {
+  const isActive = document.getElementById('time-active').checked;
+  if (isActive && !timeSettings.settings.openTime) {
+    // 默认设置为明天8:00到3天后17:00
+    const now = new Date();
+    const tomorrow = new Date(now);
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    tomorrow.setHours(8, 0, 0, 0);
+    const threeDays = new Date(now);
+    threeDays.setDate(threeDays.getDate() + 3);
+    threeDays.setHours(17, 0, 0, 0);
+    document.getElementById('time-open').value = toLocalDatetimeStr(tomorrow);
+    document.getElementById('time-close').value = toLocalDatetimeStr(threeDays);
+  }
+}
+</script>
+</body>
+</html>

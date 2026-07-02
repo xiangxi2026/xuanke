@@ -1,0 +1,571 @@
+/* ========== 基础重置 ========== */
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html { font-size: 16px; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ========== 屏幕切换 ========== */
+.screen { display: none; min-height: 100vh; }
+.screen.active { display: flex; flex-direction: column; animation: fadeIn 0.3s ease; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ========== 登录页 ========== */
+#screen-login {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.login-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 24px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.school-badge {
+  display: inline-block;
+  font-size: 13px;
+  color: #1890ff;
+  background: #e6f7ff;
+  padding: 4px 14px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.login-header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #999;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  font-size: 16px;
+  border: 2px solid #e8e8e8;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.2s;
+  background: #fafafa;
+}
+
+.form-group input:focus {
+  border-color: #1890ff;
+  background: #fff;
+}
+
+.login-tips {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-tips p {
+  font-size: 12px;
+  color: #bbb;
+  line-height: 1.8;
+}
+
+/* ========== 按钮 ========== */
+.btn {
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:active { transform: scale(0.97); }
+
+.btn-primary {
+  background: #1890ff;
+  color: #fff;
+}
+
+.btn-primary:disabled {
+  background: #b3d8ff;
+  cursor: not-allowed;
+}
+
+.btn-primary:not(:disabled):hover { background: #096dd9; }
+
+.btn-outline {
+  background: transparent;
+  color: #1890ff;
+  border: 2px solid #1890ff;
+}
+
+.btn-outline:hover { background: #e6f7ff; }
+
+.btn-text {
+  background: transparent;
+  color: #999;
+  font-size: 14px;
+  height: 36px;
+}
+
+.btn-text:hover { color: #1890ff; }
+
+.btn-block { width: 100%; }
+
+/* ========== 选科页 ========== */
+#screen-select {
+  padding: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.select-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.welcome {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.welcome-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.welcome-class {
+  font-size: 13px;
+  color: #999;
+}
+
+.modify-banner {
+  background: #fffbe6;
+  border: 1px solid #ffe58f;
+  border-radius: 10px;
+  padding: 12px 16px;
+  font-size: 14px;
+  color: #ad6800;
+  margin-bottom: 16px;
+}
+
+.select-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.select-subtitle {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+/* ========== 选科卡片 ========== */
+.choice-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.choice-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 16px;
+  border: 2px solid transparent;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.choice-card:active { transform: scale(0.98); }
+
+.choice-card.selected {
+  border-color: #1890ff;
+  box-shadow: 0 4px 16px rgba(24,144,255,0.15);
+}
+
+.choice-card.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.choice-card.full {
+  opacity: 0.6;
+}
+
+.choice-card-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.choice-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+  letter-spacing: 1px;
+}
+
+.icon-zhengshidi { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+.icon-shengdiji { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+.icon-wuhuaji { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+
+.choice-info {
+  flex: 1;
+}
+
+.choice-name {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.choice-desc {
+  font-size: 13px;
+  color: #999;
+  margin-top: 2px;
+}
+
+.choice-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 8px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+#bar-政史地 { background: linear-gradient(90deg, #667eea, #764ba2); }
+#bar-生地技 { background: linear-gradient(90deg, #43e97b, #38f9d7); }
+#bar-物化技 { background: linear-gradient(90deg, #fa709a, #fee140); }
+
+.progress-text {
+  font-size: 13px;
+  color: #666;
+  font-weight: 600;
+  white-space: nowrap;
+  min-width: 60px;
+  text-align: right;
+}
+
+.choice-card-note {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #999;
+  margin-top: 8px;
+}
+
+.lock-icon { font-size: 14px; }
+
+.choice-radio {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #d9d9d9;
+  transition: all 0.2s;
+}
+
+.choice-card.selected .choice-radio {
+  border-color: #1890ff;
+  background: #1890ff;
+}
+
+.choice-card.selected .choice-radio::after {
+  content: '✓';
+  color: #fff;
+  font-size: 13px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ========== 结果页 ========== */
+#screen-result {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.result-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 32px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.result-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #52c41a;
+  color: #fff;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  animation: popIn 0.4s ease;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0); }
+  60% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.result-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 28px;
+}
+
+.result-choice {
+  background: #f6ffed;
+  border: 1px solid #b7eb8f;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.result-choice-label {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.result-choice-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #52c41a;
+  letter-spacing: 2px;
+}
+
+.result-time {
+  font-size: 13px;
+  color: #bbb;
+  margin-bottom: 28px;
+}
+
+.result-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ========== 弹窗 ========== */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.2s ease;
+}
+
+.modal-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 28px 24px 20px;
+  width: 85%;
+  max-width: 340px;
+  text-align: center;
+}
+
+.modal-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.modal-body {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 24px;
+  line-height: 1.8;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.modal-actions .btn { flex: 1; }
+
+/* ========== Toast ========== */
+.toast {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  padding: 14px 24px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+  z-index: 2000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  max-width: 80%;
+  word-break: break-word;
+}
+
+.toast.show {
+  opacity: 1;
+}
+
+.toast.error {
+  background: rgba(255,77,79,0.9);
+}
+
+.toast.success {
+  background: rgba(82,196,26,0.9);
+}
+
+/* ========== 未开放页 ========== */
+.closed-card {
+  text-align: center;
+  padding: 28px 20px;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.closed-icon {
+  font-size: 52px;
+  margin-bottom: 16px;
+}
+
+.closed-card h1 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.closed-subtitle {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 24px;
+}
+
+.closed-time-box {
+  background: #f5f7fa;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+
+.closed-time-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+}
+
+.closed-label {
+  font-size: 14px;
+  color: #888;
+}
+
+.closed-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.closed-countdown-box {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  padding: 20px;
+  color: #fff;
+}
+
+.countdown-label {
+  font-size: 13px;
+  opacity: 0.85;
+  margin-bottom: 10px;
+}
+
+.countdown-digits {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-variant-numeric: tabular-nums;
+}

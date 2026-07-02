@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>高一选科填报系统</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+
+    <!-- ========== 登录页 ========== -->
+    <div id="screen-login" class="screen active">
+      <div class="login-card">
+        <div class="login-header">
+          <div class="school-badge">温州上海世外学校</div>
+          <h1>高一选科填报系统</h1>
+          <p class="subtitle">请输入姓名和身份证号进行身份验证</p>
+        </div>
+        <div class="form-group">
+          <label for="input-name">姓名</label>
+          <input type="text" id="input-name" placeholder="请输入学生姓名" autocomplete="off" maxlength="20">
+        </div>
+        <div class="form-group">
+          <label for="input-idcard">身份证号</label>
+          <input type="text" id="input-idcard" placeholder="请输入身份证号" autocomplete="off" maxlength="18">
+        </div>
+        <button id="btn-login" class="btn btn-primary btn-block" onclick="handleLogin()">登 录</button>
+        <div class="login-tips">
+          <p>* 身份信息由学校统一录入，如无法登录请联系班主任</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== 未开放页 ========== -->
+    <div id="screen-closed" class="screen">
+      <div class="closed-card">
+        <div class="closed-icon" id="closed-icon">⏰</div>
+        <h1 id="closed-title">填报暂未开放</h1>
+        <p class="closed-subtitle" id="closed-subtitle"></p>
+        <div class="closed-time-box" id="closed-time-box">
+          <div class="closed-time-row">
+            <span class="closed-label">开放时间</span>
+            <span class="closed-value" id="closed-open">-</span>
+          </div>
+          <div class="closed-time-row">
+            <span class="closed-label">截止时间</span>
+            <span class="closed-value" id="closed-close">-</span>
+          </div>
+        </div>
+        <div class="closed-countdown-box" id="closed-countdown-box" style="display:none;">
+          <div class="countdown-label">距离开放还有</div>
+          <div class="countdown-digits" id="countdown-digits"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== 选科页 ========== -->
+    <div id="screen-select" class="screen">
+      <div class="select-header">
+        <div class="welcome">
+          <span class="welcome-name" id="display-name"></span>
+          <span class="welcome-class" id="display-class"></span>
+        </div>
+        <button class="btn btn-text" onclick="logout()">退出</button>
+      </div>
+
+      <div id="modify-banner" class="modify-banner" style="display:none;">
+        <span>你已填报【<strong id="current-choice"></strong>】，如需修改请重新选择</span>
+      </div>
+
+      <div class="select-title">请选择你的科目组合</div>
+      <div class="select-subtitle">每个组合有人数限制，请谨慎选择</div>
+
+      <div class="choice-list">
+        <!-- 政史地 -->
+        <div class="choice-card" data-choice="政史地" onclick="selectChoice('政史地')">
+          <div class="choice-card-header">
+            <div class="choice-icon icon-zhengshidi">政史地</div>
+            <div class="choice-info">
+              <div class="choice-name">政史地</div>
+              <div class="choice-desc">政治 · 历史 · 地理</div>
+            </div>
+          </div>
+          <div class="choice-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" id="bar-政史地" style="width:0%"></div>
+            </div>
+            <div class="progress-text" id="count-政史地">0 / 86</div>
+          </div>
+          <div class="choice-radio" id="radio-政史地"></div>
+        </div>
+
+        <!-- 生地技 -->
+        <div class="choice-card" data-choice="生地技" onclick="selectChoice('生地技')">
+          <div class="choice-card-header">
+            <div class="choice-icon icon-shengdiji">生地技</div>
+            <div class="choice-info">
+              <div class="choice-name">生地技</div>
+              <div class="choice-desc">生物 · 地理 · 技术</div>
+            </div>
+          </div>
+          <div class="choice-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" id="bar-生地技" style="width:0%"></div>
+            </div>
+            <div class="progress-text" id="count-生地技">0 / 84</div>
+          </div>
+          <div class="choice-radio" id="radio-生地技"></div>
+        </div>
+
+        <!-- 物化技 -->
+        <div class="choice-card" data-choice="物化技" onclick="selectChoice('物化技')">
+          <div class="choice-card-header">
+            <div class="choice-icon icon-wuhuaji">物化技</div>
+            <div class="choice-info">
+              <div class="choice-name">物化技</div>
+              <div class="choice-desc">物理 · 化学 · 技术</div>
+            </div>
+          </div>
+          <div class="choice-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" id="bar-物化技" style="width:0%"></div>
+            </div>
+            <div class="progress-text" id="count-物化技">0 / 36</div>
+          </div>
+          <div class="choice-card-note" id="note-物化技">
+            <span class="lock-icon">🔒</span>
+            <span>需物理、化学等第为A/B/C/D方可选择</span>
+          </div>
+          <div class="choice-radio" id="radio-物化技"></div>
+        </div>
+      </div>
+
+      <button id="btn-submit" class="btn btn-primary btn-block" onclick="confirmSubmit()" disabled>确认选择</button>
+    </div>
+
+    <!-- ========== 结果页 ========== -->
+    <div id="screen-result" class="screen">
+      <div class="result-card">
+        <div class="result-icon">✓</div>
+        <div class="result-title" id="result-title">填报成功</div>
+        <div class="result-choice">
+          <div class="result-choice-label">你选择的科目组合</div>
+          <div class="result-choice-name" id="result-choice-name"></div>
+        </div>
+        <div class="result-time" id="result-time"></div>
+        <div class="result-actions">
+          <button class="btn btn-outline btn-block" onclick="goToSelect()">修改选择</button>
+          <button class="btn btn-text btn-block" onclick="logout()">退出系统</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 确认弹窗 -->
+  <div id="modal-confirm" class="modal-overlay" style="display:none;">
+    <div class="modal-card">
+      <div class="modal-title">确认选择</div>
+      <div class="modal-body" id="modal-body-text"></div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" onclick="closeModal()">取消</button>
+        <button class="btn btn-primary" id="btn-confirm-ok" onclick="doSubmit()">确认</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast 提示 -->
+  <div id="toast" class="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
