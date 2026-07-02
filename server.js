@@ -1,5 +1,5 @@
 /**
- * 高一选科填报系统 - 服务端
+ * 温州世外高二选科系统 - 服务端
  * 使用 Node.js 内置模块，无需安装任何依赖
  */
 const http = require('http');
@@ -446,7 +446,7 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(PORT, () => {
   console.log('========================================');
-  console.log('  高一选科填报系统已启动');
+  console.log('  温州世外高二选科系统已启动');
   console.log(`  访问地址: http://localhost:${PORT}`);
   console.log(`  管理后台: http://localhost:${PORT}/admin.html`);
   console.log(`  管理密码: ${ADMIN_PASSWORD}`);
