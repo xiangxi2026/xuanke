@@ -390,6 +390,16 @@ function handleUpdateSettings(body) {
   return { success: true, message: '设置已保存', settings, timeCheck };
 }
 
+// POST /api/clear
+// 清空所有填报数据（需管理员密码）
+function handleClear(body) {
+  if (body.password !== ADMIN_PASSWORD) {
+    return { success: false, message: '密码错误' };
+  }
+  saveSubmissions({ submissions: {} });
+  return { success: true, message: '填报数据已全部清空' };
+}
+
 // GET /api/timecheck
 // 无需密码，返回当前时间状态
 function handleTimeCheck() {
@@ -429,6 +439,10 @@ const server = http.createServer(async (req, res) => {
         sendJSON(res, 200, result);
       } else if (pathname === '/api/timecheck' && req.method === 'GET') {
         const result = handleTimeCheck();
+        sendJSON(res, 200, result);
+      } else if (pathname === '/api/clear' && req.method === 'POST') {
+        const body = await parseBody(req);
+        const result = handleClear(body);
         sendJSON(res, 200, result);
       } else {
         sendJSON(res, 404, { success: false, message: '接口不存在' });

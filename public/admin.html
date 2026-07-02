@@ -169,6 +169,7 @@
     <div class="dash-actions">
       <button class="btn btn-outline" onclick="refreshData()">刷新数据</button>
       <button class="btn btn-primary" onclick="exportCSV()">导出Excel</button>
+      <button class="btn btn-outline" style="color:#ff4d4f;border-color:#ff4d4f" onclick="clearData()">清空数据</button>
       <button class="btn btn-outline" onclick="adminLogout()">退出</button>
     </div>
   </div>
@@ -423,6 +424,30 @@ function exportCSV() {
   a.download = '选科填报结果_' + new Date().toISOString().slice(0, 10) + '.csv';
   a.click();
   URL.revokeObjectURL(url);
+}
+
+async function clearData() {
+  if (!confirm('⚠️ 确定要清空所有填报数据吗？此操作不可恢复！')) return;
+  if (!confirm('⚠️ 再次确认：清空后所有学生的填报记录将被删除！')) return;
+  const passwordInput = prompt('请输入管理密码以确认清空操作：');
+  if (!passwordInput) return;
+
+  try {
+    const res = await fetch('/api/clear', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password: passwordInput })
+    });
+    const data = await res.json();
+    if (data.success) {
+      alert('✅ ' + data.message);
+      refreshData();
+    } else {
+      alert('❌ ' + data.message);
+    }
+  } catch (err) {
+    alert('操作失败，请检查网络');
+  }
 }
 
 // ===== 时间设置 =====
