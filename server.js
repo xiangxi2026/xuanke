@@ -66,19 +66,21 @@ function saveSettings(settings) {
 }
 
 /**
- * 检查当前是否在填报时间内
+ * 检查当前是否在填报时间内（使用北京时间 UTC+8）
  * @returns {{ isOpen: boolean, reason: string, openTime: string, closeTime: string, secondsUntilOpen: number, secondsUntilClose: number }}
  */
 function checkTime() {
   const settings = loadSettings();
-  const now = new Date();
+  // 获取当前北京时间：UTC时间 + 8小时偏移
+  const nowUTC = new Date();
+  const nowBeijing = new Date(nowUTC.getTime() + (8 * 60 * 60 * 1000));
 
   // 未启用时间限制 → 始终开放
   if (!settings.isActive) {
     return { isOpen: true, reason: '', openTime: '', closeTime: '' };
   }
 
-  // 解析时间
+  // 解析时间（管理员设置的时间视为北京时间）
   const openTime = settings.openTime ? new Date(settings.openTime) : null;
   const closeTime = settings.closeTime ? new Date(settings.closeTime) : null;
 
@@ -87,9 +89,9 @@ function checkTime() {
     return { isOpen: true, reason: '', openTime: settings.openTime, closeTime: settings.closeTime };
   }
 
-  // 未到开放时间
-  if (now < openTime) {
-    const diff = Math.floor((openTime - now) / 1000);
+  // 未到开放时间（与北京时间比较）
+  if (nowBeijing < openTime) {
+    const diff = Math.floor((openTime - nowBeijing) / 1000);
     return {
       isOpen: false,
       reason: '填报暂未开放',
@@ -100,8 +102,8 @@ function checkTime() {
     };
   }
 
-  // 已过截止时间
-  if (now > closeTime) {
+  // 已过截止时间（与北京时间比较）
+  if (nowBeijing > closeTime) {
     return {
       isOpen: false,
       reason: '填报已结束',
@@ -113,7 +115,7 @@ function checkTime() {
   }
 
   // 在开放时间内
-  const diff = Math.floor((closeTime - now) / 1000);
+  const diff = Math.floor((closeTime - nowBeijing) / 1000);
   return {
     isOpen: true,
     reason: '',

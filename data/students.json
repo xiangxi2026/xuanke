@@ -1,2126 +1,1906 @@
 [
   {
-    "examId": "250300390003",
     "name": "郑依轩",
     "class": "01",
+    "idCard": "330302200911110027",
     "phyGrade": "E",
     "chemGrade": "D",
-    "idCard": "330302200911110027",
     "canWuhua": false
   },
   {
-    "examId": "250300390004",
     "name": "滕焯然",
     "class": "01",
+    "idCard": "330302201002042017",
     "phyGrade": "E",
     "chemGrade": "-",
-    "idCard": "330302201002042017",
     "canWuhua": false
   },
   {
-    "examId": "250300390005",
     "name": "潘轩毅",
     "class": "01",
+    "idCard": "33030220100308733X",
     "phyGrade": "D",
     "chemGrade": "D",
-    "idCard": "33030220100308733X",
     "canWuhua": true
   },
   {
-    "examId": "250300390006",
     "name": "徐恩希",
     "class": "01",
+    "idCard": "330302201006275643",
     "phyGrade": "B",
     "chemGrade": "D",
-    "idCard": "330302201006275643",
     "canWuhua": true
   },
   {
-    "examId": "250300390007",
     "name": "钟毓晨",
     "class": "01",
+    "idCard": "330302201007212425",
     "phyGrade": "-",
     "chemGrade": "-",
-    "idCard": "330302201007212425",
     "canWuhua": false
   },
   {
-    "examId": "250300390010",
     "name": "陈晤子言",
     "class": "01",
+    "idCard": "33030320091118302X",
     "phyGrade": "C",
     "chemGrade": "E",
-    "idCard": "33030320091118302X",
     "canWuhua": false
   },
   {
-    "examId": "250300390011",
     "name": "朱星瑞",
     "class": "01",
+    "idCard": "330303201001053634",
     "phyGrade": "-",
     "chemGrade": "-",
-    "idCard": "330303201001053634",
     "canWuhua": false
   },
   {
-    "examId": "250300390012",
     "name": "蒋嘉鸿",
     "class": "01",
+    "idCard": "330303201008212714",
     "phyGrade": "E",
     "chemGrade": "D",
-    "idCard": "330303201008212714",
     "canWuhua": false
   },
   {
-    "examId": "250300390014",
     "name": "徐子涵",
     "class": "01",
+    "idCard": "330324200910132126",
     "phyGrade": "-",
     "chemGrade": "C",
-    "idCard": "330324200910132126",
     "canWuhua": false
   },
   {
-    "examId": "250300390015",
     "name": "姜沐希",
     "class": "01",
+    "idCard": "330324201006151809",
     "phyGrade": "C",
     "chemGrade": "D",
-    "idCard": "330324201006151809",
     "canWuhua": true
   },
   {
-    "examId": "250300390016",
     "name": "林子叶",
     "class": "01",
+    "idCard": "330326200909190743",
     "phyGrade": "D",
     "chemGrade": "D",
-    "idCard": "330326200909190743",
     "canWuhua": true
   },
   {
-    "examId": "250300390018",
     "name": "徐仕杰",
     "class": "01",
+    "idCard": "340323201001276077",
     "phyGrade": "-",
     "chemGrade": "E",
-    "idCard": "340323201001276077",
     "canWuhua": false
   },
   {
-    "examId": "250300390019",
     "name": "石浩然",
     "class": "01",
+    "idCard": "340826201010306617",
     "phyGrade": "E",
     "chemGrade": "D",
-    "idCard": "340826201010306617",
     "canWuhua": false
   },
   {
-    "examId": "250300390020",
     "name": "王俊豪",
     "class": "01",
+    "idCard": "341621200804161177",
     "phyGrade": "B",
     "chemGrade": "C",
-    "idCard": "341621200804161177",
     "canWuhua": true
   },
   {
-    "examId": "250300390021",
     "name": "程博然",
     "class": "01",
+    "idCard": "341721200910090638",
     "phyGrade": "C",
     "chemGrade": "D",
-    "idCard": "341721200910090638",
     "canWuhua": true
   },
   {
-    "examId": "250300390022",
     "name": "叶珂含",
     "class": "01",
+    "idCard": "350724201007070061",
     "phyGrade": "C",
     "chemGrade": "D",
-    "idCard": "350724201007070061",
     "canWuhua": true
   },
   {
-    "examId": "250300390023",
     "name": "洪特乐",
     "class": "01",
+    "idCard": "360281201001151030",
     "phyGrade": "E",
     "chemGrade": "D",
-    "idCard": "360281201001151030",
     "canWuhua": false
   },
   {
-    "examId": "250300390024",
     "name": "余雨桐",
     "class": "01",
+    "idCard": "360428201008251623",
     "phyGrade": "-",
     "chemGrade": "-",
-    "idCard": "360428201008251623",
     "canWuhua": false
   },
   {
-    "examId": "250300390025",
     "name": "刘霆",
     "class": "01",
+    "idCard": "360830201002103455",
     "phyGrade": "B",
     "chemGrade": "C",
-    "idCard": "360830201002103455",
     "canWuhua": true
   },
   {
-    "examId": "250300390026",
     "name": "刘靖轩",
     "class": "01",
+    "idCard": "361127200911106186",
     "phyGrade": "D",
     "chemGrade": "D",
-    "idCard": "361127200911106186",
     "canWuhua": true
   },
   {
-    "examId": "250300390028",
     "name": "郭思琪",
     "class": "01",
+    "idCard": "422801201004294028",
     "phyGrade": "E",
     "chemGrade": "B",
-    "idCard": "422801201004294028",
     "canWuhua": false
   },
   {
-    "examId": "250300390029",
     "name": "倪周成",
     "class": "01",
+    "idCard": "43052820100826003X",
     "phyGrade": "E",
     "chemGrade": "E",
-    "idCard": "43052820100826003X",
     "canWuhua": false
   },
   {
-    "examId": "250300390030",
     "name": "何冠宏",
     "class": "01",
-    "phyGrade": "B",
-    "chemGrade": "B",
     "idCard": "500231200912267577",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390031",
-    "name": "刘家铭",
-    "class": "02",
-    "phyGrade": "A",
-    "chemGrade": "C",
-    "idCard": "330302201001229410",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390032",
-    "name": "张栩赫",
-    "class": "02",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "33030220100717561X",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390033",
-    "name": "吴家炜",
-    "class": "02",
-    "phyGrade": "A",
-    "chemGrade": "A",
-    "idCard": "330302201008078213",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390034",
-    "name": "杨禾旸",
-    "class": "02",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330303200810210623",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390035",
-    "name": "陈锦",
-    "class": "02",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "330303200910081814",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390036",
-    "name": "周子涵",
-    "class": "02",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "33030320091014001X",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390037",
-    "name": "郑镱茹",
-    "class": "02",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "330303200912091821",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390038",
-    "name": "施思琦",
-    "class": "02",
-    "phyGrade": "A",
-    "chemGrade": "C",
-    "idCard": "330303200912200629",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390039",
-    "name": "余笳滢",
-    "class": "02",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "33030320100106064X",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390040",
-    "name": "沈彦成",
-    "class": "02",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330303201001223314",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390041",
-    "name": "姜金洛",
-    "class": "02",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "33030320100124182X",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390042",
-    "name": "陈诺",
-    "class": "02",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "330303201002061812",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390043",
-    "name": "张皓哲",
-    "class": "02",
-    "phyGrade": "B",
-    "chemGrade": "D",
-    "idCard": "330303201002062719",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390044",
-    "name": "章家瑞",
-    "class": "02",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330303201003120634",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390045",
-    "name": "王心怡",
-    "class": "02",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "33030320100322242X",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390047",
-    "name": "朱洲毅",
-    "class": "02",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "330303201005211855",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390048",
-    "name": "季轩宇",
-    "class": "02",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330303201006101818",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390049",
-    "name": "许瑞恺",
-    "class": "02",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330303201007093012",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390050",
-    "name": "应凯悦",
-    "class": "02",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "330303201007270066",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390051",
-    "name": "蒋艺闻",
-    "class": "02",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "330303201007272715",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390052",
-    "name": "郑铭扬",
-    "class": "02",
-    "phyGrade": "E",
-    "chemGrade": "C",
-    "idCard": "330303201008123615",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390053",
-    "name": "郑云溪",
-    "class": "02",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "330304200911200316",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390054",
-    "name": "纪梓毅",
-    "class": "02",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "330322200909050817",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390055",
-    "name": "陈叶牧歌",
-    "class": "02",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "330322200910270016",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390056",
-    "name": "朱瑾萱",
-    "class": "02",
-    "phyGrade": "B",
-    "chemGrade": "D",
-    "idCard": "330324201001280062",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390057",
-    "name": "戴彤彤",
-    "class": "02",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "330381201002031487",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390058",
-    "name": "吴东奇",
-    "class": "02",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "330381201004235416",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390059",
-    "name": "高浩然",
-    "class": "02",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330382200909171797",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390060",
-    "name": "郑亦丽",
-    "class": "02",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "330382201001142229",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390061",
-    "name": "许伟呈",
-    "class": "02",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "360122201004234514",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390062",
-    "name": "杨海萱",
-    "class": "02",
-    "phyGrade": "B",
-    "chemGrade": "D",
-    "idCard": "361181201003187542",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390063",
-    "name": "刘晋鹏",
-    "class": "02",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "411525201004070034",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390064",
-    "name": "刘瑞南",
-    "class": "02",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "411621200910193082",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390065",
-    "name": "张亦飞",
-    "class": "02",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "41162720091211741X",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390066",
-    "name": "黄安琪",
-    "class": "02",
     "phyGrade": "B",
     "chemGrade": "B",
-    "idCard": "430626201001290167",
     "canWuhua": true
   },
   {
-    "examId": "250300390067",
-    "name": "夏雅琪",
-    "class": "02",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "430626201002210229",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390068",
-    "name": "赵龙富",
-    "class": "02",
-    "phyGrade": "E",
-    "chemGrade": "B",
-    "idCard": "500116201005156035",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390069",
-    "name": "郭俊希",
-    "class": "02",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "51200220100327701X",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390096",
-    "name": "张密迦",
-    "class": "03",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330302201001169446",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390097",
-    "name": "陈竞莹",
-    "class": "03",
-    "phyGrade": "E",
-    "chemGrade": "C",
-    "idCard": "330302201001217620",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390098",
-    "name": "施天宥",
-    "class": "03",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "330302201007200010",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390099",
-    "name": "肖一婷",
-    "class": "03",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "330302201008045622",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390100",
-    "name": "朱鸣律",
-    "class": "03",
-    "phyGrade": "E",
-    "chemGrade": "E",
-    "idCard": "330303200910181815",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390101",
-    "name": "项宸豪",
-    "class": "03",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330303200910193314",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390103",
-    "name": "林俊涵",
-    "class": "03",
-    "phyGrade": "-",
-    "chemGrade": "-",
-    "idCard": "330303201001111814",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390104",
-    "name": "王希雯",
-    "class": "03",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "330303201002032421",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390105",
-    "name": "朱子骞",
-    "class": "03",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330303201003110313",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390106",
-    "name": "余欣颖",
-    "class": "03",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330303201007290024",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390107",
-    "name": "李佳佳",
-    "class": "03",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330304200910104824",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390108",
-    "name": "陈品赫",
-    "class": "03",
-    "phyGrade": "-",
-    "chemGrade": "D",
-    "idCard": "330304201001106712",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390109",
-    "name": "孙煊赫",
-    "class": "03",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "330304201008090311",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390111",
-    "name": "李漫妮",
-    "class": "02",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "330327200909140101",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390113",
-    "name": "郑希杰",
-    "class": "03",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330328201002224631",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390114",
-    "name": "蔡吉轩",
-    "class": "03",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "330329201007171934",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390116",
-    "name": "杨雨彤",
-    "class": "03",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "341621201003203925",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390117",
-    "name": "柳思蓉",
-    "class": "03",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "360922201001310386",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390118",
-    "name": "田迪",
-    "class": "03",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "411481200910110772",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390119",
-    "name": "李欣雅",
-    "class": "03",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "421302201004282367",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390120",
-    "name": "唐鑫汇",
-    "class": "03",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "43072320100621010X",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390121",
-    "name": "万祖瑜",
-    "class": "03",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "431021201004010155",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390122",
-    "name": "蔡智聿",
-    "class": "03",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "500115200909147819",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390123",
-    "name": "蒋彦泽",
-    "class": "03",
-    "phyGrade": "E",
-    "chemGrade": "E",
-    "idCard": "500224201001187657",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390124",
-    "name": "黄思豪",
-    "class": "03",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "500226201006026273",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390125",
-    "name": "鲍俊勇",
-    "class": "04",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "321322201004027237",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390126",
-    "name": "周嘉",
-    "class": "04",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330303200904192729",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390127",
-    "name": "何东航",
-    "class": "04",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "330303200908061814",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390128",
-    "name": "李芊落",
-    "class": "04",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330303200908183627",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390129",
-    "name": "项镇涛",
-    "class": "04",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "330303200910192733",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390130",
-    "name": "全渃涵",
-    "class": "04",
-    "phyGrade": "B",
-    "chemGrade": "B",
-    "idCard": "330303200910232723",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390131",
-    "name": "项紫煊",
-    "class": "04",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "330303200911063327",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390132",
-    "name": "张宸睿",
-    "class": "04",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330303200911262414",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390133",
-    "name": "王一朵",
-    "class": "04",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330303200912113621",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390134",
-    "name": "范钧捷",
-    "class": "04",
-    "phyGrade": "B",
-    "chemGrade": "B",
-    "idCard": "330303200912162415",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390135",
-    "name": "严向阳",
-    "class": "04",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "330303201001043612",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390136",
-    "name": "郑锋",
-    "class": "04",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330303201001131858",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390137",
-    "name": "王晗瑜",
-    "class": "04",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330303201001142426",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390139",
-    "name": "李奕宸",
-    "class": "04",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "330303201004281835",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390140",
-    "name": "李璐一",
-    "class": "04",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "330303201006011863",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390142",
-    "name": "朱天宇",
-    "class": "04",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "330303201006300630",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390143",
-    "name": "王依茹",
-    "class": "04",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "330303201007103620",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390144",
-    "name": "王紫彤",
-    "class": "04",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "330303201007182744",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390145",
-    "name": "王衍超",
-    "class": "04",
-    "phyGrade": "B",
-    "chemGrade": "D",
-    "idCard": "33030320100811185X",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390146",
-    "name": "章添皓",
-    "class": "04",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "330303201008123332",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390148",
-    "name": "蘧正",
-    "class": "04",
-    "phyGrade": "B",
-    "chemGrade": "D",
-    "idCard": "330326200909265215",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390149",
-    "name": "饶映艳",
-    "class": "04",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "330327200910270640",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390150",
-    "name": "陈优冉",
-    "class": "04",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330327200912300428",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390151",
-    "name": "林琪瑶",
-    "class": "04",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "350982201001070225",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390152",
-    "name": "熊禹钦",
-    "class": "04",
-    "phyGrade": "B",
-    "chemGrade": "B",
-    "idCard": "360924200910282819",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390153",
-    "name": "叶文浩",
-    "class": "04",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "361121201007178399",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390154",
-    "name": "张宇浩",
-    "class": "04",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "410423200907190471",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390155",
-    "name": "齐书惠",
-    "class": "04",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "41162520100224282X",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390156",
-    "name": "张琳屹",
-    "class": "04",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "411727201008010155",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390157",
-    "name": "章梓涵",
-    "class": "04",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "420322200910115747",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390158",
-    "name": "杨鑫",
-    "class": "04",
-    "phyGrade": "B",
-    "chemGrade": "B",
-    "idCard": "430523200901150179",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390159",
-    "name": "陈佳欣",
-    "class": "04",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "500241201002096323",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390160",
-    "name": "胡金玉",
-    "class": "04",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "511502200911036029",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390161",
-    "name": "阚浩睿",
-    "class": "04",
-    "phyGrade": "E",
-    "chemGrade": "C",
-    "idCard": "511722201003140534",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390162",
-    "name": "周艳清",
-    "class": "04",
-    "phyGrade": "B",
-    "chemGrade": "B",
-    "idCard": "520324201007050124",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390164",
-    "name": "赵宇翔",
-    "class": "04",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330382200909010096",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390165",
-    "name": "曹钧杰",
-    "class": "05",
-    "phyGrade": "B",
-    "chemGrade": "E",
-    "idCard": "330302200910141817",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390166",
-    "name": "李名晋",
-    "class": "05",
-    "phyGrade": "A",
-    "chemGrade": "C",
-    "idCard": "330302200911072411",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390167",
-    "name": "潘昱硕",
-    "class": "05",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330302201001038614",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390168",
-    "name": "陈佳璇",
-    "class": "05",
-    "phyGrade": "B",
-    "chemGrade": "D",
-    "idCard": "330302201002085922",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390169",
-    "name": "郭紫涵",
-    "class": "05",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "330302201002132063",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390170",
-    "name": "李明扬",
-    "class": "05",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330302201002182431",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390171",
-    "name": "季箴源",
-    "class": "05",
-    "phyGrade": "B",
-    "chemGrade": "D",
-    "idCard": "330302201002251812",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390172",
-    "name": "诸雨桐",
-    "class": "05",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "330302201004128623",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390173",
-    "name": "郑伊琳",
-    "class": "05",
-    "phyGrade": "E",
-    "chemGrade": "-",
-    "idCard": "330302201004175622",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390174",
-    "name": "李佳琦",
-    "class": "05",
-    "phyGrade": "D",
-    "chemGrade": "B",
-    "idCard": "330303200909252727",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390175",
-    "name": "项尹睿",
-    "class": "05",
-    "phyGrade": "D",
-    "chemGrade": "-",
-    "idCard": "330303200911213356",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390176",
-    "name": "王子瑶",
-    "class": "05",
-    "phyGrade": "D",
-    "chemGrade": "E",
-    "idCard": "330303201004132725",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390177",
-    "name": "季子荐",
-    "class": "05",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "33030320100529243X",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390178",
-    "name": "姜宥均",
-    "class": "05",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330303201008181831",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390179",
-    "name": "胡恺伦",
-    "class": "05",
-    "phyGrade": "E",
-    "chemGrade": "-",
-    "idCard": "330304201004105117",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390180",
-    "name": "曾涵晴",
-    "class": "05",
-    "phyGrade": "E",
-    "chemGrade": "E",
-    "idCard": "330322200909260822",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390181",
-    "name": "李以诺",
-    "class": "05",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330324200912176819",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390182",
-    "name": "周子歆",
-    "class": "05",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "330324200912186005",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390184",
-    "name": "夏依凡",
-    "class": "05",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "330326200910273044",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390187",
-    "name": "徐尊",
-    "class": "05",
-    "phyGrade": "B",
-    "chemGrade": "E",
-    "idCard": "330824201008160917",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390188",
-    "name": "赵福豪",
-    "class": "05",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "34122520100817491X",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390189",
-    "name": "徐梓超",
-    "class": "05",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "361124201006013014",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390190",
-    "name": "邓旭峰",
-    "class": "05",
-    "phyGrade": "C",
-    "chemGrade": "E",
-    "idCard": "361128200911286793",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390191",
-    "name": "李星",
-    "class": "05",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "411326201001100512",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390192",
-    "name": "陈玉龙",
-    "class": "05",
-    "phyGrade": "B",
-    "chemGrade": "D",
-    "idCard": "411528201002120236",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390193",
-    "name": "龙艾莲",
-    "class": "05",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "511602200911062521",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390194",
-    "name": "干子童",
-    "class": "06",
-    "phyGrade": "E",
-    "chemGrade": "C",
-    "idCard": "330302200909085627",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390195",
-    "name": "张熳",
-    "class": "06",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330302200911152825",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390196",
-    "name": "汤宇凡",
-    "class": "06",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "330302201003252032",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390197",
-    "name": "王炳钤",
-    "class": "06",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330303200901300093",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390198",
-    "name": "张竹一",
-    "class": "06",
-    "phyGrade": "B",
-    "chemGrade": "D",
-    "idCard": "330303200909013347",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390199",
-    "name": "张栩赫",
-    "class": "06",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "330303200910232416",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390201",
-    "name": "黄意晴",
-    "class": "06",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "330303200911260646",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390202",
-    "name": "李俊南",
-    "class": "06",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330303200912272737",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390203",
-    "name": "朱欣汝",
-    "class": "06",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330303201001060623",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390205",
-    "name": "王敏语",
-    "class": "06",
-    "phyGrade": "B",
-    "chemGrade": "B",
-    "idCard": "330303201001123321",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390206",
-    "name": "姜林欣",
-    "class": "06",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "330303201002011882",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390207",
-    "name": "汪桢昊",
-    "class": "06",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330303201002013335",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390208",
-    "name": "张轩瑜",
-    "class": "06",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "330303201003191862",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390209",
-    "name": "冯雅妮",
-    "class": "06",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "330303201004131861",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390210",
-    "name": "钟凯文",
-    "class": "06",
-    "phyGrade": "B",
-    "chemGrade": "B",
-    "idCard": "330303201005121817",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390211",
-    "name": "杨子萱",
-    "class": "06",
-    "phyGrade": "-",
-    "chemGrade": "-",
-    "idCard": "33030320100610332X",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390212",
-    "name": "王景寅",
-    "class": "06",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330303201006140614",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390213",
-    "name": "张哲瀚",
-    "class": "06",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "330303201006262419",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390214",
-    "name": "李俊滨",
-    "class": "06",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "330303201008042719",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390215",
-    "name": "徐子恒",
-    "class": "06",
-    "phyGrade": "B",
-    "chemGrade": "B",
-    "idCard": "330303201008183917",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390216",
-    "name": "李晟源",
-    "class": "06",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "330324201007177410",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390217",
-    "name": "蔡语旋",
-    "class": "06",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330327200912160824",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390220",
-    "name": "林暄皓",
-    "class": "06",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "330382201005032617",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390221",
-    "name": "丁浩跃",
-    "class": "06",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "331022200911111951",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390222",
-    "name": "郭高敏",
-    "class": "06",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "331181200912241788",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390223",
-    "name": "南睿博",
-    "class": "06",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "340104200912209030",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390224",
-    "name": "吴文豪",
-    "class": "06",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "340826200909062214",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390225",
-    "name": "杨硕",
-    "class": "06",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "341521201007095858",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390226",
-    "name": "李雨航",
-    "class": "06",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "360427200912221210",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390227",
-    "name": "张忆思",
-    "class": "06",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "361128201001117864",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390228",
-    "name": "汪永杰",
-    "class": "06",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "411528200909130630",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390229",
-    "name": "吴好",
-    "class": "06",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "421181200910233540",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390230",
-    "name": "陈思潼",
-    "class": "06",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "500223201005023725",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390231",
-    "name": "熊紫涵",
-    "class": "06",
-    "phyGrade": "A",
-    "chemGrade": "C",
-    "idCard": "511922200912212087",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390232",
-    "name": "林民杰",
-    "class": "06",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "61042320091023003X",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390234",
-    "name": "夏梓卿",
-    "class": "07",
-    "phyGrade": "A",
-    "chemGrade": "C",
-    "idCard": "330302200909298411",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390235",
-    "name": "高明",
-    "class": "07",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "330302200911309415",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390236",
-    "name": "章宸铭",
-    "class": "07",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "330302200912282816",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390237",
-    "name": "董士瑄",
-    "class": "07",
-    "phyGrade": "E",
-    "chemGrade": "E",
-    "idCard": "330302201001222032",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390238",
-    "name": "倪好",
-    "class": "07",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "330302201001295645",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390240",
-    "name": "张程量",
-    "class": "07",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "330303201002110637",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390241",
-    "name": "姜祥杰",
-    "class": "07",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330303201002223914",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390242",
-    "name": "林瑄琪",
-    "class": "07",
-    "phyGrade": "D",
-    "chemGrade": "C",
-    "idCard": "330303201003053320",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390243",
-    "name": "程文博",
-    "class": "07",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "330303201005101816",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390244",
-    "name": "孙雨彤",
-    "class": "07",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "330303201005203329",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390246",
-    "name": "陈艺轩",
-    "class": "07",
-    "phyGrade": "C",
-    "chemGrade": "D",
-    "idCard": "330303201006121827",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390247",
-    "name": "肖海洲",
-    "class": "07",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330324201004153579",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390248",
-    "name": "白伊琳",
-    "class": "07",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "330326200910016021",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390249",
-    "name": "徐佳妮",
-    "class": "07",
-    "phyGrade": "B",
-    "chemGrade": "D",
-    "idCard": "331125200910180423",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390250",
-    "name": "陈若语",
-    "class": "07",
-    "phyGrade": "E",
-    "chemGrade": "C",
-    "idCard": "340321200912230849",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390251",
-    "name": "汪卓轩",
-    "class": "07",
-    "phyGrade": "E",
-    "chemGrade": "C",
-    "idCard": "341024201001168528",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390252",
-    "name": "刘晨",
-    "class": "07",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "341282200910227636",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390253",
-    "name": "柳家豪",
-    "class": "07",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "341282201007146818",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390254",
-    "name": "郑皓轩",
-    "class": "07",
-    "phyGrade": "A",
-    "chemGrade": "-",
-    "idCard": "34132420100325053X",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390255",
-    "name": "李梓辰",
-    "class": "07",
-    "phyGrade": "E",
-    "chemGrade": "E",
-    "idCard": "350582201003120036",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390256",
-    "name": "张诗妍",
-    "class": "07",
-    "phyGrade": "B",
-    "chemGrade": "C",
-    "idCard": "410823200910260348",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390257",
-    "name": "刘仕俊",
-    "class": "07",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "411723200911270316",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390258",
-    "name": "张瀚宇",
-    "class": "07",
-    "phyGrade": "B",
-    "chemGrade": "B",
-    "idCard": "50023520100117701X",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390259",
-    "name": "杜王可",
-    "class": "07",
-    "phyGrade": "E",
-    "chemGrade": "D",
-    "idCard": "520402201008070132",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390260",
-    "name": "吴东宸",
-    "class": "07",
-    "phyGrade": "C",
-    "chemGrade": "C",
-    "idCard": "H1025167503",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390261",
-    "name": "肖瑞彬",
-    "class": "02",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "330381201007262612",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390263",
-    "name": "余清",
-    "class": "03",
-    "phyGrade": "E",
-    "chemGrade": "E",
-    "idCard": "360101201006108528",
-    "canWuhua": false
-  },
-  {
-    "examId": "250300390264",
-    "name": "章紫芸",
-    "class": "05",
-    "phyGrade": "A",
-    "chemGrade": "B",
-    "idCard": "330303200809013622",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390265",
-    "name": "朱翎吉",
-    "class": "05",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "33030320090113032X",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390267",
-    "name": "王楷盛",
-    "class": "05",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330303200912130616",
-    "canWuhua": true
-  },
-  {
-    "examId": "250300390268",
-    "name": "张峻玮",
-    "class": "03",
-    "phyGrade": "D",
-    "chemGrade": "D",
-    "idCard": "330382201004070312",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
-    "name": "谢瑾怡",
-    "class": "03",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "361027200812095025",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
-    "name": "白彦茜",
-    "class": "02",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "330303200901251826",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
     "name": "李铭泽",
     "class": "01",
-    "phyGrade": "",
-    "chemGrade": "",
     "idCard": "330303201007282710",
+    "phyGrade": "D",
+    "chemGrade": "D",
     "canWuhua": true
   },
   {
-    "examId": "",
-    "name": "黄盈超",
-    "class": "04",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "341302201007184754",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
-    "name": "王亦阳",
-    "class": "05",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "330303200812013623",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
-    "name": "晏子轩",
-    "class": "05",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "341323201001041439",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
-    "name": "严依然",
-    "class": "03",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "330304200812284825",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
-    "name": "展乐洋",
-    "class": "05",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "330302201003132030",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
-    "name": "徐菲菲",
-    "class": "03",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "330303200910140642",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
-    "name": "林昱成",
-    "class": "02",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "330302201004207313",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
     "name": "邹子颖",
     "class": "01",
-    "phyGrade": "",
-    "chemGrade": "",
     "idCard": "330302201001195628",
-    "canWuhua": true
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
   },
   {
-    "examId": "",
     "name": "冯优优",
     "class": "01",
-    "phyGrade": "",
-    "chemGrade": "",
     "idCard": "330303200911241824",
+    "phyGrade": "D",
+    "chemGrade": "D",
     "canWuhua": true
   },
   {
-    "examId": "",
-    "name": "王祉嫣",
-    "class": "05",
+    "name": "刘家铭",
+    "class": "02",
+    "idCard": "330302201001229410",
+    "phyGrade": "A",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "张栩赫1",
+    "class": "02",
+    "idCard": "33030220100717561X",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "吴家炜",
+    "class": "02",
+    "idCard": "330302201008078213",
+    "phyGrade": "A",
+    "chemGrade": "A",
+    "canWuhua": true
+  },
+  {
+    "name": "杨禾旸",
+    "class": "02",
+    "idCard": "330303200810210623",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "陈锦",
+    "class": "02",
+    "idCard": "330303200910081814",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "周子涵",
+    "class": "02",
+    "idCard": "33030320091014001X",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "郑镱茹",
+    "class": "02",
+    "idCard": "330303200912091821",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "施思琦",
+    "class": "02",
+    "idCard": "330303200912200629",
+    "phyGrade": "A",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "余笳滢",
+    "class": "02",
+    "idCard": "33030320100106064X",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "沈彦成",
+    "class": "02",
+    "idCard": "330303201001223314",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "姜金洛",
+    "class": "02",
+    "idCard": "33030320100124182X",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "陈诺",
+    "class": "02",
+    "idCard": "330303201002061812",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "张皓哲",
+    "class": "02",
+    "idCard": "330303201002062719",
+    "phyGrade": "B",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "章家瑞",
+    "class": "02",
+    "idCard": "330303201003120634",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "王心怡",
+    "class": "02",
+    "idCard": "33030320100322242X",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "朱洲毅",
+    "class": "02",
+    "idCard": "330303201005211855",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "季轩宇",
+    "class": "02",
+    "idCard": "330303201006101818",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "许瑞恺",
+    "class": "02",
+    "idCard": "330303201007093012",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "应凯悦",
+    "class": "02",
+    "idCard": "330303201007270066",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "蒋艺闻",
+    "class": "02",
+    "idCard": "330303201007272715",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "郑铭扬",
+    "class": "02",
+    "idCard": "330303201008123615",
+    "phyGrade": "E",
+    "chemGrade": "C",
+    "canWuhua": false
+  },
+  {
+    "name": "郑云溪",
+    "class": "02",
+    "idCard": "330304200911200316",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "纪梓毅",
+    "class": "02",
+    "idCard": "330322200909050817",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "陈叶牧歌",
+    "class": "02",
+    "idCard": "330322200910270016",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "朱瑾萱",
+    "class": "02",
+    "idCard": "330324201001280062",
+    "phyGrade": "B",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "戴彤彤",
+    "class": "02",
+    "idCard": "330381201002031487",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "吴东奇",
+    "class": "02",
+    "idCard": "330381201004235416",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "高浩然",
+    "class": "02",
+    "idCard": "330382200909171797",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "郑亦丽",
+    "class": "02",
+    "idCard": "330382201001142229",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "许伟呈",
+    "class": "02",
+    "idCard": "360122201004234514",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "杨海萱",
+    "class": "02",
+    "idCard": "361181201003187542",
+    "phyGrade": "B",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "刘晋鹏",
+    "class": "02",
+    "idCard": "411525201004070034",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "刘瑞南",
+    "class": "02",
+    "idCard": "411621200910193082",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "张亦飞",
+    "class": "02",
+    "idCard": "41162720091211741X",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "黄安琪",
+    "class": "02",
+    "idCard": "430626201001290167",
+    "phyGrade": "B",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "夏雅琪",
+    "class": "02",
+    "idCard": "430626201002210229",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "赵龙富",
+    "class": "02",
+    "idCard": "500116201005156035",
+    "phyGrade": "E",
+    "chemGrade": "B",
+    "canWuhua": false
+  },
+  {
+    "name": "郭俊希",
+    "class": "02",
+    "idCard": "51200220100327701X",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "李漫妮",
+    "class": "02",
+    "idCard": "330327200909140101",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "肖瑞彬",
+    "class": "02",
+    "idCard": "330381201007262612",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "白彦茜",
+    "class": "02",
+    "idCard": "330303200901251826",
+    "phyGrade": "D",
+    "chemGrade": "",
+    "canWuhua": true
+  },
+  {
+    "name": "林昱成",
+    "class": "02",
+    "idCard": "330302201004207313",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "张密迦",
+    "class": "03",
+    "idCard": "330302201001169446",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "陈竞莹",
+    "class": "03",
+    "idCard": "330302201001217620",
+    "phyGrade": "E",
+    "chemGrade": "C",
+    "canWuhua": false
+  },
+  {
+    "name": "施天宥",
+    "class": "03",
+    "idCard": "330302201007200010",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "肖一婷",
+    "class": "03",
+    "idCard": "330302201008045622",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "朱鸣律",
+    "class": "03",
+    "idCard": "330303200910181815",
+    "phyGrade": "E",
+    "chemGrade": "E",
+    "canWuhua": false
+  },
+  {
+    "name": "项宸豪",
+    "class": "03",
+    "idCard": "330303200910193314",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "林俊涵",
+    "class": "03",
+    "idCard": "330303201001111814",
+    "phyGrade": "-",
+    "chemGrade": "-",
+    "canWuhua": false
+  },
+  {
+    "name": "王希雯",
+    "class": "03",
+    "idCard": "330303201002032421",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "朱子骞",
+    "class": "03",
+    "idCard": "330303201003110313",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "余欣颖",
+    "class": "03",
+    "idCard": "330303201007290024",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "李佳佳",
+    "class": "03",
+    "idCard": "330304200910104824",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "陈品赫",
+    "class": "03",
+    "idCard": "330304201001106712",
+    "phyGrade": "-",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "孙煊赫",
+    "class": "03",
+    "idCard": "330304201008090311",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "郑希杰",
+    "class": "03",
+    "idCard": "330328201002224631",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "蔡吉轩",
+    "class": "03",
+    "idCard": "330329201007171934",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "杨雨彤",
+    "class": "03",
+    "idCard": "341621201003203925",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "柳思蓉",
+    "class": "03",
+    "idCard": "360922201001310386",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "田迪",
+    "class": "03",
+    "idCard": "411481200910110772",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "李欣雅",
+    "class": "03",
+    "idCard": "421302201004282367",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "唐鑫汇",
+    "class": "03",
+    "idCard": "43072320100621010X",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "万祖瑜",
+    "class": "03",
+    "idCard": "431021201004010155",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "蔡智聿",
+    "class": "03",
+    "idCard": "500115200909147819",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "蒋彦泽",
+    "class": "03",
+    "idCard": "500224201001187657",
+    "phyGrade": "E",
+    "chemGrade": "E",
+    "canWuhua": false
+  },
+  {
+    "name": "黄思豪",
+    "class": "03",
+    "idCard": "500226201006026273",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "余清",
+    "class": "03",
+    "idCard": "360101201006108528",
+    "phyGrade": "E",
+    "chemGrade": "E",
+    "canWuhua": false
+  },
+  {
+    "name": "张峻玮",
+    "class": "03",
+    "idCard": "330382201004070312",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "谢瑾怡",
+    "class": "03",
+    "idCard": "361027200812095025",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "严依然",
+    "class": "03",
+    "idCard": "330304200812284825",
     "phyGrade": "",
     "chemGrade": "",
-    "idCard": "330302200910242028",
     "canWuhua": true
   },
   {
-    "examId": "",
-    "name": "尤梓豪",
-    "class": "05",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "350582200912242554",
-    "canWuhua": true
+    "name": "徐菲菲",
+    "class": "03",
+    "idCard": "330303200910140642",
+    "phyGrade": "D",
+    "chemGrade": "E",
+    "canWuhua": false
   },
   {
-    "examId": "",
-    "name": "张珉赫",
-    "class": "05",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "330303201003111834",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
     "name": "黄俊涵",
     "class": "03",
-    "phyGrade": "",
-    "chemGrade": "",
     "idCard": "330303201008093030",
+    "phyGrade": "D",
+    "chemGrade": "D",
     "canWuhua": true
   },
   {
-    "examId": "",
     "name": "陈君轩",
     "class": "03",
+    "idCard": "330324200910102859",
     "phyGrade": "",
     "chemGrade": "",
-    "idCard": "330324200910102859",
     "canWuhua": true
   },
   {
-    "examId": "",
+    "name": "鲍俊勇",
+    "class": "04",
+    "idCard": "321322201004027237",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "周嘉",
+    "class": "04",
+    "idCard": "330303200904192729",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "何东航",
+    "class": "04",
+    "idCard": "330303200908061814",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "李芊落",
+    "class": "04",
+    "idCard": "330303200908183627",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "项镇涛",
+    "class": "04",
+    "idCard": "330303200910192733",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "全渃涵",
+    "class": "04",
+    "idCard": "330303200910232723",
+    "phyGrade": "B",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "项紫煊",
+    "class": "04",
+    "idCard": "330303200911063327",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "张宸睿",
+    "class": "04",
+    "idCard": "330303200911262414",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "王一朵",
+    "class": "04",
+    "idCard": "330303200912113621",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "范钧捷",
+    "class": "04",
+    "idCard": "330303200912162415",
+    "phyGrade": "B",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "严向阳",
+    "class": "04",
+    "idCard": "330303201001043612",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "郑锋",
+    "class": "04",
+    "idCard": "330303201001131858",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "王晗瑜",
+    "class": "04",
+    "idCard": "330303201001142426",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "李奕宸",
+    "class": "04",
+    "idCard": "330303201004281835",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "李璐一",
+    "class": "04",
+    "idCard": "330303201006011863",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "朱天宇",
+    "class": "04",
+    "idCard": "330303201006300630",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "王依茹",
+    "class": "04",
+    "idCard": "330303201007103620",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "王紫彤",
+    "class": "04",
+    "idCard": "330303201007182744",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "王衍超",
+    "class": "04",
+    "idCard": "33030320100811185X",
+    "phyGrade": "B",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "章添皓",
+    "class": "04",
+    "idCard": "330303201008123332",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "蘧正",
+    "class": "04",
+    "idCard": "330326200909265215",
+    "phyGrade": "B",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "饶映艳",
+    "class": "04",
+    "idCard": "330327200910270640",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "陈优冉",
+    "class": "04",
+    "idCard": "330327200912300428",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "林琪瑶",
+    "class": "04",
+    "idCard": "350982201001070225",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "熊禹钦",
+    "class": "04",
+    "idCard": "360924200910282819",
+    "phyGrade": "B",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "叶文浩",
+    "class": "04",
+    "idCard": "361121201007178399",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "张宇浩",
+    "class": "04",
+    "idCard": "410423200907190471",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "齐书惠",
+    "class": "04",
+    "idCard": "41162520100224282X",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "张琳屹",
+    "class": "04",
+    "idCard": "411727201008010155",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "章梓涵",
+    "class": "04",
+    "idCard": "420322200910115747",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "杨鑫",
+    "class": "04",
+    "idCard": "430523200901150179",
+    "phyGrade": "B",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "陈佳欣",
+    "class": "04",
+    "idCard": "500241201002096323",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "胡金玉",
+    "class": "04",
+    "idCard": "511502200911036029",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "阚浩睿",
+    "class": "04",
+    "idCard": "511722201003140534",
+    "phyGrade": "E",
+    "chemGrade": "C",
+    "canWuhua": false
+  },
+  {
+    "name": "周艳清",
+    "class": "04",
+    "idCard": "520324201007050124",
+    "phyGrade": "B",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "赵宇翔",
+    "class": "04",
+    "idCard": "330382200909010096",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "黄盈超",
+    "class": "04",
+    "idCard": "341302201007184754",
+    "phyGrade": "",
+    "chemGrade": "",
+    "canWuhua": true
+  },
+  {
+    "name": "曹钧杰",
+    "class": "05",
+    "idCard": "330302200910141817",
+    "phyGrade": "B",
+    "chemGrade": "E",
+    "canWuhua": false
+  },
+  {
+    "name": "李名晋",
+    "class": "05",
+    "idCard": "330302200911072411",
+    "phyGrade": "A",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "潘昱硕",
+    "class": "05",
+    "idCard": "330302201001038614",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "陈佳璇",
+    "class": "05",
+    "idCard": "330302201002085922",
+    "phyGrade": "B",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "郭紫涵",
+    "class": "05",
+    "idCard": "330302201002132063",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "李明扬",
+    "class": "05",
+    "idCard": "330302201002182431",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "季箴源",
+    "class": "05",
+    "idCard": "330302201002251812",
+    "phyGrade": "B",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "诸雨桐",
+    "class": "05",
+    "idCard": "330302201004128623",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "郑伊琳",
+    "class": "05",
+    "idCard": "330302201004175622",
+    "phyGrade": "E",
+    "chemGrade": "-",
+    "canWuhua": false
+  },
+  {
+    "name": "李佳琦",
+    "class": "05",
+    "idCard": "330303200909252727",
+    "phyGrade": "D",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "项尹睿",
+    "class": "05",
+    "idCard": "330303200911213356",
+    "phyGrade": "D",
+    "chemGrade": "-",
+    "canWuhua": false
+  },
+  {
+    "name": "王子瑶",
+    "class": "05",
+    "idCard": "330303201004132725",
+    "phyGrade": "D",
+    "chemGrade": "E",
+    "canWuhua": false
+  },
+  {
+    "name": "季子荐",
+    "class": "05",
+    "idCard": "33030320100529243X",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "姜宥均",
+    "class": "05",
+    "idCard": "330303201008181831",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "胡恺伦",
+    "class": "05",
+    "idCard": "330304201004105117",
+    "phyGrade": "E",
+    "chemGrade": "-",
+    "canWuhua": false
+  },
+  {
+    "name": "曾涵晴",
+    "class": "05",
+    "idCard": "330322200909260822",
+    "phyGrade": "E",
+    "chemGrade": "E",
+    "canWuhua": false
+  },
+  {
+    "name": "李以诺",
+    "class": "05",
+    "idCard": "330324200912176819",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "周子歆",
+    "class": "05",
+    "idCard": "330324200912186005",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "夏依凡",
+    "class": "05",
+    "idCard": "330326200910273044",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "徐尊",
+    "class": "05",
+    "idCard": "330824201008160917",
+    "phyGrade": "B",
+    "chemGrade": "E",
+    "canWuhua": false
+  },
+  {
+    "name": "赵福豪",
+    "class": "05",
+    "idCard": "34122520100817491X",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "徐梓超",
+    "class": "05",
+    "idCard": "361124201006013014",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "邓旭峰",
+    "class": "05",
+    "idCard": "361128200911286793",
+    "phyGrade": "C",
+    "chemGrade": "E",
+    "canWuhua": false
+  },
+  {
+    "name": "李星",
+    "class": "05",
+    "idCard": "411326201001100512",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "陈玉龙",
+    "class": "05",
+    "idCard": "411528201002120236",
+    "phyGrade": "B",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "龙艾莲",
+    "class": "05",
+    "idCard": "511602200911062521",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "章紫芸",
+    "class": "05",
+    "idCard": "330303200809013622",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "朱翎吉",
+    "class": "05",
+    "idCard": "33030320090113032X",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "王楷盛",
+    "class": "05",
+    "idCard": "330303200912130616",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "王亦阳",
+    "class": "05",
+    "idCard": "330303200812013623",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "晏子轩",
+    "class": "05",
+    "idCard": "341323201001041439",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "展乐洋",
+    "class": "05",
+    "idCard": "330302201003132030",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "王祉嫣",
+    "class": "05",
+    "idCard": "330302200910242028",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
     "name": "张睿宸",
     "class": "05",
-    "phyGrade": "",
-    "chemGrade": "",
     "idCard": "330303200912182758",
-    "canWuhua": true
+    "phyGrade": "D",
+    "chemGrade": "E",
+    "canWuhua": false
   },
   {
-    "examId": "",
-    "name": "王祉尹",
-    "class": "07",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "33030320070903184X",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
-    "name": "何凌潇",
-    "class": "07",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "330381201001308229",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
-    "name": "王愫妍",
-    "class": "07",
-    "phyGrade": "",
-    "chemGrade": "",
-    "idCard": "330302200908187963",
-    "canWuhua": true
-  },
-  {
-    "examId": "",
     "name": "倪冰",
     "class": "05",
+    "idCard": "330327200807180946",
     "phyGrade": "",
     "chemGrade": "",
-    "idCard": "330327200807180946",
+    "canWuhua": true
+  },
+  {
+    "name": "干子童",
+    "class": "06",
+    "idCard": "330302200909085627",
+    "phyGrade": "E",
+    "chemGrade": "C",
+    "canWuhua": false
+  },
+  {
+    "name": "张熳",
+    "class": "06",
+    "idCard": "330302200911152825",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "汤宇凡",
+    "class": "06",
+    "idCard": "330302201003252032",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "王炳钤",
+    "class": "06",
+    "idCard": "330303200901300093",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "张竹一",
+    "class": "06",
+    "idCard": "330303200909013347",
+    "phyGrade": "B",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "张栩赫2",
+    "class": "06",
+    "idCard": "330303200910232416",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "黄意晴",
+    "class": "06",
+    "idCard": "330303200911260646",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "李俊南",
+    "class": "06",
+    "idCard": "330303200912272737",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "朱欣汝",
+    "class": "06",
+    "idCard": "330303201001060623",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "王敏语",
+    "class": "06",
+    "idCard": "330303201001123321",
+    "phyGrade": "B",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "姜林欣",
+    "class": "06",
+    "idCard": "330303201002011882",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "汪桢昊",
+    "class": "06",
+    "idCard": "330303201002013335",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "张轩瑜",
+    "class": "06",
+    "idCard": "330303201003191862",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "冯雅妮",
+    "class": "06",
+    "idCard": "330303201004131861",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "钟凯文",
+    "class": "06",
+    "idCard": "330303201005121817",
+    "phyGrade": "B",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "王景寅",
+    "class": "06",
+    "idCard": "330303201006140614",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "张哲瀚",
+    "class": "06",
+    "idCard": "330303201006262419",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "李俊滨",
+    "class": "06",
+    "idCard": "330303201008042719",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "徐子恒",
+    "class": "06",
+    "idCard": "330303201008183917",
+    "phyGrade": "B",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "李晟源",
+    "class": "06",
+    "idCard": "330324201007177410",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "蔡语旋",
+    "class": "06",
+    "idCard": "330327200912160824",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "林暄皓",
+    "class": "06",
+    "idCard": "330382201005032617",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "丁浩跃",
+    "class": "06",
+    "idCard": "331022200911111951",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "郭高敏",
+    "class": "06",
+    "idCard": "331181200912241788",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "南睿博",
+    "class": "06",
+    "idCard": "340104200912209030",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "吴文豪",
+    "class": "06",
+    "idCard": "340826200909062214",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "杨硕",
+    "class": "06",
+    "idCard": "341521201007095858",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "李雨航",
+    "class": "06",
+    "idCard": "360427200912221210",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "张忆思",
+    "class": "06",
+    "idCard": "361128201001117864",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "汪永杰",
+    "class": "06",
+    "idCard": "411528200909130630",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "吴好",
+    "class": "06",
+    "idCard": "421181200910233540",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "陈思潼",
+    "class": "06",
+    "idCard": "500223201005023725",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "熊紫涵",
+    "class": "06",
+    "idCard": "511922200912212087",
+    "phyGrade": "A",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "林民杰",
+    "class": "06",
+    "idCard": "61042320091023003X",
+    "phyGrade": "A",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "尤梓豪",
+    "class": "07",
+    "idCard": "350582200912242554",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "张珉赫",
+    "class": "07",
+    "idCard": "330303201003111834",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "夏梓卿",
+    "class": "07",
+    "idCard": "330302200909298411",
+    "phyGrade": "A",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "高明",
+    "class": "07",
+    "idCard": "330302200911309415",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "章宸铭",
+    "class": "07",
+    "idCard": "330302200912282816",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "董士瑄",
+    "class": "07",
+    "idCard": "330302201001222032",
+    "phyGrade": "E",
+    "chemGrade": "E",
+    "canWuhua": false
+  },
+  {
+    "name": "倪好",
+    "class": "07",
+    "idCard": "330302201001295645",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "张程量",
+    "class": "07",
+    "idCard": "330303201002110637",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "姜祥杰",
+    "class": "07",
+    "idCard": "330303201002223914",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "林瑄琪",
+    "class": "07",
+    "idCard": "330303201003053320",
+    "phyGrade": "D",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "程文博",
+    "class": "07",
+    "idCard": "330303201005101816",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "孙雨彤",
+    "class": "07",
+    "idCard": "330303201005203329",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "陈艺轩",
+    "class": "07",
+    "idCard": "330303201006121827",
+    "phyGrade": "C",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "肖海洲",
+    "class": "07",
+    "idCard": "330324201004153579",
+    "phyGrade": "D",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "白伊琳",
+    "class": "07",
+    "idCard": "330326200910016021",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "徐佳妮",
+    "class": "07",
+    "idCard": "331125200910180423",
+    "phyGrade": "B",
+    "chemGrade": "D",
+    "canWuhua": true
+  },
+  {
+    "name": "陈若语",
+    "class": "07",
+    "idCard": "340321200912230849",
+    "phyGrade": "E",
+    "chemGrade": "C",
+    "canWuhua": false
+  },
+  {
+    "name": "汪卓轩",
+    "class": "07",
+    "idCard": "341024201001168528",
+    "phyGrade": "E",
+    "chemGrade": "C",
+    "canWuhua": false
+  },
+  {
+    "name": "刘晨",
+    "class": "07",
+    "idCard": "341282200910227636",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "柳家豪",
+    "class": "07",
+    "idCard": "341282201007146818",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "郑皓轩",
+    "class": "07",
+    "idCard": "34132420100325053X",
+    "phyGrade": "A",
+    "chemGrade": "-",
+    "canWuhua": false
+  },
+  {
+    "name": "李梓辰",
+    "class": "07",
+    "idCard": "350582201003120036",
+    "phyGrade": "E",
+    "chemGrade": "E",
+    "canWuhua": false
+  },
+  {
+    "name": "张诗妍",
+    "class": "07",
+    "idCard": "410823200910260348",
+    "phyGrade": "B",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "刘仕俊",
+    "class": "07",
+    "idCard": "411723200911270316",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "张瀚宇",
+    "class": "07",
+    "idCard": "50023520100117701X",
+    "phyGrade": "B",
+    "chemGrade": "B",
+    "canWuhua": true
+  },
+  {
+    "name": "杜王可",
+    "class": "07",
+    "idCard": "520402201008070132",
+    "phyGrade": "E",
+    "chemGrade": "D",
+    "canWuhua": false
+  },
+  {
+    "name": "吴东宸",
+    "class": "07",
+    "idCard": "H1025167503",
+    "phyGrade": "C",
+    "chemGrade": "C",
+    "canWuhua": true
+  },
+  {
+    "name": "王祉尹",
+    "class": "07",
+    "idCard": "33030320070903184X",
+    "phyGrade": "",
+    "chemGrade": "",
+    "canWuhua": true
+  },
+  {
+    "name": "何凌潇",
+    "class": "07",
+    "idCard": "330381201001308229",
+    "phyGrade": "",
+    "chemGrade": "",
+    "canWuhua": true
+  },
+  {
+    "name": "王愫妍",
+    "class": "07",
+    "idCard": "330302200908187963",
+    "phyGrade": "D",
+    "chemGrade": "E",
+    "canWuhua": false
+  },
+  {
+    "name": "皮陈凯",
+    "class": "05",
+    "idCard": "330302200907252831",
+    "phyGrade": "",
+    "chemGrade": "",
+    "canWuhua": true
+  },
+  {
+    "name": "倪鼎岳",
+    "class": "01",
+    "idCard": "33030220091009001X",
+    "phyGrade": "",
+    "chemGrade": "",
+    "canWuhua": true
+  },
+  {
+    "name": "涂景凯",
+    "class": "01",
+    "idCard": "33030320090926391X",
+    "phyGrade": "",
+    "chemGrade": "",
     "canWuhua": true
   }
 ]
