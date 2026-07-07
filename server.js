@@ -20,7 +20,7 @@ const studentById = new Map(students.map(s => [s.idCard, s]));
 // 以 name+idCard 联合建立查找表（更安全）
 const studentByKey = new Map(students.map(s => [`${s.name}|${s.idCard}`, s]));
 
-const LIMITS = { '政史地': 86, '生地技': 84, '物化技': 36 };
+const LIMITS = { '政史地': 126, '生地技': 84, '物化技': 36 };
 const CHOICES = ['政史地', '生地技', '物化技'];
 
 // ==================== 数据持久化 ====================
