@@ -20,7 +20,8 @@ const studentById = new Map(students.map(s => [s.idCard, s]));
 // 以 name+idCard 联合建立查找表（更安全）
 const studentByKey = new Map(students.map(s => [`${s.name}|${s.idCard}`, s]));
 
-const LIMITS = { '政史地': 126, '生地技': 84, '物化技': 36 };
+// 人数限制已取消（2026-08-23 需求变更：三个组合不限人数），limits 返回 null
+const LIMITS = null;
 const CHOICES = ['政史地', '生地技', '物化技'];
 
 // ==================== 数据持久化 ====================
@@ -287,22 +288,7 @@ function handleSubmit(body) {
     };
   }
 
-  // 6. 人数限制判定
-  const counts = calcCounts(data.submissions);
-
-  // 如果是修改，先减去原来组合的人数再检查
-  if (existing) {
-    counts[existing.choice]--;
-  }
-
-  if (counts[cleanChoice] >= LIMITS[cleanChoice]) {
-    return {
-      success: false,
-      message: '该科目已满，请另外选择',
-      counts: calcCounts(data.submissions),
-      limits: LIMITS
-    };
-  }
+  // 6. 人数限制已取消，不再校验上限
 
   // 7. 保存
   data.submissions[cleanId] = {
