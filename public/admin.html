@@ -347,10 +347,10 @@ function renderDashboard() {
   let statsHtml = '';
   ['政史地', '生地技', '物化技'].forEach(choice => {
     const count = d.counts[choice] || 0;
-    const limit = d.limits[choice];
-    const percent = Math.min(100, (count / limit) * 100);
+    const limit = d.limits ? d.limits[choice] : null;
+    const percent = limit ? Math.min(100, (count / limit) * 100) : 100;
     const cfg = choiceConfig[choice];
-    const isFull = count >= limit;
+    const isFull = limit && count >= limit;
 
     statsHtml += `
       <div class="stat-card">
@@ -363,8 +363,8 @@ function renderDashboard() {
           <div class="stat-bar-fill" style="width:${percent}%;background:${cfg.iconBg}"></div>
         </div>
         <div class="stat-numbers">
-          <span><span class="stat-count" style="color:${cfg.color}">${count}</span> <span class="stat-limit">/ ${limit}</span></span>
-          <span class="stat-percent">${percent.toFixed(0)}%</span>
+          <span><span class="stat-count" style="color:${cfg.color}">${count}</span> <span class="stat-limit">${limit ? '/ ' + limit + ' 人' : '人（不限名额）'}</span></span>
+          ${limit ? `<span class="stat-percent">${percent.toFixed(0)}%</span>` : ''}
         </div>
       </div>
     `;

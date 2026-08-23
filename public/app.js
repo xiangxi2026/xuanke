@@ -101,11 +101,11 @@ function enterSelectScreen() {
   if (!studentInfo.canWuhua) {
     wuhuaCard.classList.add('disabled');
     wuhuaNote.style.display = 'flex';
-    wuhuaNote.innerHTML = '<span class="lock-icon">🔒</span><span>你的物理/化学等第不满足要求，不可选择此组合</span>';
+    wuhuaNote.innerHTML = '<span class="lock-icon">🔒</span><span>你的化学学考等第不满足要求（需D级及以上），不可选择此组合</span>';
   } else {
     wuhuaCard.classList.remove('disabled');
     wuhuaNote.style.display = 'flex';
-    wuhuaNote.innerHTML = '<span class="lock-icon">✅</span><span>你的物化等第满足要求，可以选择此组合</span>';
+    wuhuaNote.innerHTML = '<span class="lock-icon">✅</span><span>你的化学学考等第满足要求，可以选择此组合</span>';
   }
 
   // 如果已有填报，预选
@@ -141,18 +141,26 @@ function updateStatusUI() {
 
   ['政史地', '生地技', '物化技'].forEach(choice => {
     const count = counts[choice] || 0;
-    const limit = limits[choice];
-    const percent = Math.min(100, (count / limit) * 100);
 
     const bar = document.getElementById('bar-' + choice);
     const text = document.getElementById('count-' + choice);
-    if (bar) bar.style.width = percent + '%';
-    if (text) text.textContent = count + ' / ' + limit;
 
-    // 满额标红
+    if (limits && limits[choice]) {
+      // 有人数上限时显示进度
+      const limit = limits[choice];
+      const percent = Math.min(100, (count / limit) * 100);
+      if (bar) bar.style.width = percent + '%';
+      if (text) text.textContent = count + ' / ' + limit;
+    } else {
+      // 无人数上限时只显示已报人数
+      if (bar) bar.style.width = '100%';
+      if (text) text.textContent = '已报 ' + count + ' 人';
+    }
+
+    // 满额标红（仅在有上限时生效）
     const card = document.querySelector('[data-choice="' + choice + '"]');
     if (card) {
-      if (count >= limit) {
+      if (limits && limits[choice] && count >= limits[choice]) {
         card.classList.add('full');
       } else {
         card.classList.remove('full');
@@ -169,16 +177,7 @@ function selectChoice(choice) {
     return;
   }
 
-  // 满额检查
-  if (statusData) {
-    const count = statusData.counts[choice] || 0;
-    const limit = statusData.limits[choice];
-    // 如果是修改且选择的是已选的组合，不算满额
-    if (!(existingSubmission && existingSubmission.choice === choice) && count >= limit) {
-      showToast('该科目已满，请另外选择', 'error');
-      return;
-    }
-  }
+  // 人数限制已取消，不再校验满额
 
   selectedChoice = choice;
   updateChoiceUI();
